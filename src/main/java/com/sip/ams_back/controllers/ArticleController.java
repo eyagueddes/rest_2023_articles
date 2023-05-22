@@ -26,8 +26,6 @@ import java.util.List;
         }
 
 
-
-
         @GetMapping("/list")
         public List<Article> getAllArticles() {
             return (List<Article>) articleRepository.findAll();
